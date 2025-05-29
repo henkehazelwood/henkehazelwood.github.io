@@ -10,29 +10,7 @@
 <atom:link href="https://henkehazelwood.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Blog</description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 19 May 2025 22:00:00 GMT</lastBuildDate>
-<item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://henkehazelwood.github.io/posts/post-with-code/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This is a post with executable code.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://henkehazelwood.github.io/posts/post-with-code/</guid>
-  <pubDate>Mon, 19 May 2025 22:00:00 GMT</pubDate>
-  <media:content url="https://henkehazelwood.github.io/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
-</item>
+<lastBuildDate>Fri, 16 May 2025 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Welcome To My Blog</title>
   <dc:creator>Tristan O&#39;Malley</dc:creator>
