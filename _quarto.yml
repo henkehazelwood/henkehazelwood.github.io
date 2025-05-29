@@ -4,7 +4,7 @@ project:
 
 website:
   title: "hazelwood.dev"
-  site-url: https://henkehazelwood.github.io/
+  site-url: https://hazelwood.dev/
   description: "Blog"
   navbar:
     left:
@@ -14,7 +14,7 @@ website:
         text: About
     right:
       - icon: github
-        href: https://github.com/
+        href: https://github.com/henkehazelwood/
       - icon: rss
         href: index.xml
 
