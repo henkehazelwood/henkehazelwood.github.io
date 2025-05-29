@@ -1,1 +1,1 @@
-Sitemap: https://henkehazelwood.github.io/sitemap.xml
+Sitemap: https://hazelwood.dev/sitemap.xml
