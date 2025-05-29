@@ -4,7 +4,7 @@ project:
 
 website:
   title: "hazelwood.dev"
-  site-url: https://hazelwood.dev/
+  site-url: hazelwood.dev
   description: "Blog"
   navbar:
     left:
