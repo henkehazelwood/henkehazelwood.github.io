@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/jupyter-notebook-101/jupyter-notebook-101.html",
       "/posts/welcome/index.html"
     ]
   }

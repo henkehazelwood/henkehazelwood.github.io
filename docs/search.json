@@ -14,10 +14,73 @@
     "text": "This is the first post in a Quarto blog.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
+    "objectID": "posts/jupyter-notebook-101/jupyter-notebook-101.html",
+    "href": "posts/jupyter-notebook-101/jupyter-notebook-101.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Let’s build up from the basics: what is a Jupyter Notebook? A notebook is a document made of cells. You can write in some of them (markdown cells) or you can perform calculations in Python (code cells) and run them like this:\n1+1\n\n2\nCool, huh? This combination of prose and code makes Jupyter Notebook ideal for experimentation: we can see the rationale for each experiment, the code, and the results in one comprehensive document.\nTry it yourself now. Click “Copy & Edit” in the top right to get your own editable version of this notebook, then click the cell above and hit Shift-Enter.\nOther renowned institutions in academia and industry use Jupyter Notebook, including Google, Microsoft, IBM, Bloomberg, Berkeley and NASA among others. Even Nobel-winning economists use Jupyter Notebooks for their experiments and some suggest that Jupyter Notebooks will be the new format for research papers."
+  },
+  {
+    "objectID": "posts/jupyter-notebook-101/jupyter-notebook-101.html#writing",
+    "href": "posts/jupyter-notebook-101/jupyter-notebook-101.html#writing",
+    "title": "Introduction",
+    "section": "Writing",
+    "text": "Writing\nA type of cell in which you can write text is called a Markdown cell. Markdown is a very popular markup language. To specify that a cell is Markdown you need to click in the drop-down menu in the toolbar and select Markdown.\nClick the ‘+ Markdown’ button below. Now you can type your first Markdown cell. Write ‘My first markdown cell’ and press run.\nYou should see something like this:\nMy first markdown cell\nNow try making your first Code cell: follow the same steps as before but click “+ Code”. Type something like 3/2. You should see ‘1.5’ as output.\n\n3/2\n\n1.5"
+  },
+  {
+    "objectID": "posts/jupyter-notebook-101/jupyter-notebook-101.html#modes",
+    "href": "posts/jupyter-notebook-101/jupyter-notebook-101.html#modes",
+    "title": "Introduction",
+    "section": "Modes",
+    "text": "Modes\nIf you made a mistake in your Markdown cell and you have already run it, you will notice that you cannot edit it just by clicking on it. This is because you are in Command Mode. Jupyter Notebooks have two distinct modes:\n\nEdit Mode:: Allows you to edit a cell’s content.\nCommand Mode:: Allows you to edit the notebook as a whole and use keyboard shortcuts but not edit a cell’s content.\n\nYou can toggle between these two by either pressing ESC and Enter or clicking outside a cell or inside it (you need to double click if it’s a Markdown cell). You can always tell which mode you’re on: the current cell will have a green border in Edit Mode and a blue border in Command Mode. Try it!"
+  },
+  {
+    "objectID": "posts/jupyter-notebook-101/jupyter-notebook-101.html#other-important-considerations",
+    "href": "posts/jupyter-notebook-101/jupyter-notebook-101.html#other-important-considerations",
+    "title": "Introduction",
+    "section": "Other Important Considerations",
+    "text": "Other Important Considerations\nYour notebook is autosaved every 120 seconds. If you want to manually save it you can just press the “save version” button on the upper right corner.\nTo know if your kernel (the Python engine executing your instructions behind the scenes) is computing or not, you can check the icon to the left of your cell. If the dot spinning, it means that the kernel is working. If not, it is idle.\nThere are a couple of shortcuts you must know about which we use all the time (always in Command Mode). These are:\n\nShift+Enter: Run the code or markdown on a cell\nUp Arrow / Down Arrow: Toggle across cells\nb: Create new cell underneath this one\n0+0: Reset Kernel\n\nYou can find more shortcuts by typing h (for help).\nYou may need to use shell commands, like ls or cat in a Jupyter Notebook environment. That is very easy to do: just type ! before you shell command, like so:\n\n!pwd\n\n/home/nelson/Developer/personal/02-projects/blog/posts/jupyter-notebook-101\n\n\nThat’s it. This is all you need to know to use Jupyter Notebooks. That said, we have more tips and tricks below… There’s a lot you can do with notebooks – in fact, we published a whole book written entirely as notebooks!"
+  },
+  {
+    "objectID": "posts/jupyter-notebook-101/jupyter-notebook-101.html#markdown-formatting",
+    "href": "posts/jupyter-notebook-101/jupyter-notebook-101.html#markdown-formatting",
+    "title": "Introduction",
+    "section": "Markdown Formatting",
+    "text": "Markdown Formatting\n\nImages\nDid you know that the Jupyter Notebook team won the highest honor for a software system, the ACM Software System Award?\n\n\n\nimage.png\n\n\nAnd did you know that you can add images to your notebook, like I did in the cell above? To do so, just copy your image on your computer, and paste it into a markdown cell. You’ll see something like this:\n![image.png](attachment:e8fe737f-c301-41ec-a462-cf16cee3cbb7.png)\nWhen you execute the cell, you’ll see the image appear.\n\n\nItalics, Bold, Strikethrough, Inline, Blockquotes and Links\nThe five most important concepts to format your code appropriately when using Markdown are:\n\nItalics:: Surround your text with _ or *.\nBold:: Surround your text with __ or **.\ninline:: Surround your text with `.\nblockquote:: Place &gt; before your text.\nLinks:: Surround the text you want to link with [] and place the link adjacent to the text, surrounded with ().\n\n\n\nHeadings\nNotice that including a hashtag before the text in a markdown cell makes the text a heading. The number of hashtags you include will determine the priority of the header (# is level one, ## is level two, ### is level three and #### is level four). We will add three new cells with the + button on the left to see how every level of heading looks.\nIn the notebook, double click on some headings and find out what level they are!\n\n\nLists\nThere are three types of lists in markdown.\nOrdered list:\n\nStep 1\n\nStep 1B\n\nStep 3\n\nUnordered list\n\nlearning rate\ncycle length\nweight decay\n\nTask list\n\nLearn Jupyter Notebooks\n\nWriting\nModes\nOther Considerations\n\nChange the world\n\nIn the notebook, double click on them to see how they are built!"
+  },
+  {
+    "objectID": "posts/jupyter-notebook-101/jupyter-notebook-101.html#code-capabilities",
+    "href": "posts/jupyter-notebook-101/jupyter-notebook-101.html#code-capabilities",
+    "title": "Introduction",
+    "section": "Code Capabilities",
+    "text": "Code Capabilities\nCode cells are different than Markdown cells in that they have an output cell. This means that we can keep the results of our code within the notebook and share them. Let’s say we want to show a graph that explains the result of an experiment. We can just run the necessary cells and save the notebook. The output will be there when we open it again! Try it out by running the next two cells.\n\na = 1\nb = a + 1\nc = b + a + 1\nd = c + b + a + 1\na, b, c ,d\n\n(1, 2, 4, 8)\n\n\n\nimport matplotlib.pyplot as plt\n\nplt.plot([a,b,c,d])\nplt.show()"
+  },
+  {
+    "objectID": "posts/jupyter-notebook-101/jupyter-notebook-101.html#running-jupyter-locally",
+    "href": "posts/jupyter-notebook-101/jupyter-notebook-101.html#running-jupyter-locally",
+    "title": "Introduction",
+    "section": "Running Jupyter Locally",
+    "text": "Running Jupyter Locally\nThis notebook is running inside Kaggle or a GitHub Codespace. You can also run notebooks inside other cloud environments such as Colab, Sagemaker Studio Lab, and Paperspace Gradient. Or you can run a Jupyter Notebook server from your local computer. What’s more, if you have installed Anaconda you don’t even need to install Jupyter (if not, just pip install jupyter).\nYou just need to run jupyter notebook in your terminal. Remember to run it from a folder that contains all the folders/files you will want to access. You will be able to open, view, and edit files located within the directory in which you run this command but not files in parent directories.\nIf a browser tab does not open automatically once you run the command, you should CTRL+CLICK the link starting with ‘http://localhost:’ and this will open a new tab in your default browser."
+  },
+  {
+    "objectID": "posts/jupyter-notebook-101/jupyter-notebook-101.html#shortcuts-and-tricks",
+    "href": "posts/jupyter-notebook-101/jupyter-notebook-101.html#shortcuts-and-tricks",
+    "title": "Introduction",
+    "section": "Shortcuts and Tricks",
+    "text": "Shortcuts and Tricks\nHere is a list of useful tricks when in a Jupyter Notebook. Make sure you learn them early and use them as often as you can!\n\nCommand Mode Shortcuts\nThere are a couple of useful keyboard shortcuts in Command Mode that you can leverage to make Jupyter Notebook faster to use. Remember that you can switch back and forth between Command Mode and Edit Mode with Esc and Enter.\n\nm:: Convert cell to Markdown\ny:: Convert cell to Code\nd+d:: Delete cell\no:: Toggle between hide or show output\nShift+Arrow up/Arrow down:: Select multiple cells. Once you have selected them you can operate on them like a batch (run, copy, paste etc).\nShift+M:: Merge selected cells\n\n\n\nCell Tricks\nThere are also some tricks that you can code into a cell:\n\n?function-name:: Shows the definition and docstring for that function\n??function-name:: Shows the source code for that function\ndoc(function-name):: Shows the definition, docstring and links to the documentation of the function (only works with fastai library imported)\nShift+Tab (press once):: See which parameters to pass to a function\nShift+Tab (press three times):: Get additional information on the method\n\nHere’s an example of using ? to learn about Python’s print() function:\n\n?print\n\n\n\nLine Magics\nLine magics are functions that you can run on cells. They should be at the beginning of a line and take as an argument the rest of the line from where they are called. You call them by placing a ‘%’ sign before the command. The most useful ones are:\n\n%matplotlib inline:: Ensures that all matplotlib plots will be plotted in the output cell within the notebook and will be kept in the notebook when saved.\n\nThis command is always called together at the beginning of every notebook of the fast.ai course.\n%matplotlib inline\n\n%timeit:: Runs a line ten thousand times and displays the average time it took to run.\n\n\n%timeit [i+1 for i in range(1000)]\n\n19.4 μs ± 220 ns per loop (mean ± std. dev. of 7 runs, 100,000 loops each)\n\n\n%debug: Inspects a function which is showing an error using the Python debugger. If you type this in a cell just after an error, you will be directed to a console where you can inspect the values of all the variables."
+  },
+  {
+    "objectID": "posts/jupyter-notebook-101/jupyter-notebook-101.html#thanks-for-reading",
+    "href": "posts/jupyter-notebook-101/jupyter-notebook-101.html#thanks-for-reading",
+    "title": "Introduction",
+    "section": "Thanks for reading!",
+    "text": "Thanks for reading!\nIf you found this notebook useful, I’d greatly appreciate an upvote (on my original notebook here, not on the copy you made of it!) Don’t hesitate to add a comment if you have any questions or thoughts to add, or have your own favorite Jupyter tips."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "hazelwood.dev",
     "section": "",
-    "text": "Welcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nHenke Hazelwood\n\n\n\n\n\nNo matching items"
+    "text": "Introduction\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nHenke Hazelwood\n\n\n\n\n\nNo matching items"
   }
 ]
