@@ -4,7 +4,8 @@ project:
 
 website:
   title: "data science and deep learning blog"
-  base-url: https://hazelwood.dev
+  base-urls:
+    - https://hazelwood.dev
   description: "a data science and deeplearning blog by and for henke hazelwood"
   navbar:
     left:
