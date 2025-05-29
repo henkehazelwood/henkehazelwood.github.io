@@ -3,8 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "blog"
+  title: "data science and deep learning blog"
   base-url: https://hazelwood.dev
+  description: "a data science and deeplearning blog by and for henke hazelwood"
   navbar:
     left:
       - href: index.qmd
@@ -16,6 +17,9 @@ website:
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+      - icon: rss
+        href: index.xml
+
 format:
   html:
     theme:
