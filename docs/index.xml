@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>hazelwood.dev</title>
-<link>https://hazelwood.dev/</link>
-<atom:link href="https://hazelwood.dev/index.xml" rel="self" type="application/rss+xml"/>
+<link>hazelwood.dev/</link>
+<atom:link href="hazelwood.dev/index.xml" rel="self" type="application/rss+xml"/>
 <description>Blog</description>
 <generator>quarto-1.7.31</generator>
 <lastBuildDate>Wed, 28 May 2025 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Welcome To My Blog</title>
   <dc:creator>Henke Hazelwood</dc:creator>
-  <link>https://hazelwood.dev/posts/welcome/</link>
+  <link>hazelwood.dev/posts/welcome/</link>
   <description><![CDATA[ 
 
 
@@ -22,14 +22,14 @@
 
 
 <p>This is the first post in a Quarto blog.</p>
-<p><img src="https://hazelwood.dev/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p><img src="hazelwood.dev/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
 <p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
 
 
 
  ]]></description>
   <category>news</category>
-  <guid>https://hazelwood.dev/posts/welcome/</guid>
+  <guid>hazelwood.dev/posts/welcome/</guid>
   <pubDate>Wed, 28 May 2025 22:00:00 GMT</pubDate>
 </item>
 </channel>

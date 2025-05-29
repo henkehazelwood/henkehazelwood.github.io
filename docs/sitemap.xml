@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hazelwood.dev/about.html</loc>
+    <loc>hazelwood.dev/about.html</loc>
     <lastmod>2025-05-29T09:03:13.631Z</lastmod>
   </url>
   <url>
-    <loc>https://hazelwood.dev/posts/welcome/index.html</loc>
+    <loc>hazelwood.dev/posts/welcome/index.html</loc>
     <lastmod>2025-05-29T09:26:41.975Z</lastmod>
   </url>
   <url>
-    <loc>https://hazelwood.dev/index.html</loc>
+    <loc>hazelwood.dev/index.html</loc>
     <lastmod>2025-05-29T09:17:03.650Z</lastmod>
   </url>
 </urlset>

@@ -1,1 +1,1 @@
-Sitemap: https://hazelwood.dev/sitemap.xml
+Sitemap: hazelwood.dev/sitemap.xml
