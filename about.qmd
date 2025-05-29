@@ -10,4 +10,4 @@ about:
 
 ---
 
-About this blog
+Data science and deep learning blog for and by Henke Hazelwood.
