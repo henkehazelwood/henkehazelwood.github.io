@@ -1,7 +1,7 @@
 ---
 title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2025-05-17"
+author: "Henke Hazelwood"
+date: "2025-05-29"
 categories: [news]
 ---
 
